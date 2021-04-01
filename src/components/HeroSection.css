@@ -1,0 +1,68 @@
+.hero{
+    height: 1400px;
+    background: url('../images/women.jpg') center center/cover no-repeat;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+h1{
+    font-size:70px;
+    margin-top: 50px;
+}
+h2{
+    font-size: 55px;
+    margin-top: 50px;
+}
+p{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.hero-text {
+    /* background-color: sandybrown; */
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right : 25%;
+
+    text-align: center;
+    
+
+}
+
+.cv-btn{
+
+    padding: 12px 26px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.hire-btn{
+    padding: 12px 26px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    /* padding: 8px 20px; */
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    margin-top: 50px;
+}
+
+.cv-btn:hover,
+.hire-btn:hover{
+
+transition: all 0.3s ease-out;
+background: #fff;
+color: #242424;
+transition: 250ms;
+}

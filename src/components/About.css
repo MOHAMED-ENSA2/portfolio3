@@ -1,0 +1,53 @@
+.about{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    /* background-color: red; */
+    margin: 0 auto;
+
+
+}
+
+.profile-img{
+    width: 350px;
+    height: 400px;
+    
+}
+
+.me{
+    /* background-color: sandybrown; */
+    padding: 60px;
+   
+}
+
+
+.info{
+
+    padding: 12px 26px;
+    font-size: 20px;
+    background-color: #3c6997;
+    color: #242424;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.cv-btn2{
+    padding: 12px 26px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #000;
+    /* padding: 8px 20px; */
+    border: 1px solid #3c6997;
+    transition: all 0.3s ease-out;
+    margin-top: 50px;
+}
+
+.cv-btn2:hover,
+.info:hover{
+
+transition: all 0.3s ease-out;
+background: #fff;
+color: #242424;
+transition: 250ms;
+}
