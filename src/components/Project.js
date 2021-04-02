@@ -7,11 +7,12 @@ class Project extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div className = {this.props.classname}>
                 <i class="fas fa-code"></i>
                 <h2>titre de projet</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad cumque perferendis eum, dolorum incidunt nobis dolor deleniti dignissimos autem aspernatur distinctio repellendus ratione architecto dicta amet tempora veniam sed illum.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt deserunt ducimus, sint delectus quos voluptatum sapiente consequuntur necessitatibus, in itaque tempora sunt tenetur autem accusantium optio, commodi recusandae eveniet veniam!</p>
             </div>
+            
          );
     }
 }

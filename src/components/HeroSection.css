@@ -9,15 +9,15 @@
     position: relative;
 }
 
-h1{
+.hero-text > h1{
     font-size:70px;
     margin-top: 50px;
 }
-h2{
+.hero-text > h2{
     font-size: 55px;
     margin-top: 50px;
 }
-p{
+.hero-text > p{
     font-size: 30px;
     margin-top: 50px;
 }

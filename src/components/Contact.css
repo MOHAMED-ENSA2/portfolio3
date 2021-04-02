@@ -1,0 +1,121 @@
+.contact{
+    height: 700px;
+    background-color: #f7f7f7;
+    padding: 100px;
+    
+}
+
+.contact-container{
+    height: 500px;
+    width: 1400px;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'l l'
+                        'r m';
+
+}
+
+
+.en-tete{
+    grid-area: l;
+    /* background-color: rosybrown; */
+    text-align: center;
+}
+
+.en-tete > h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.en-tete > p {
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #888;
+}
+
+
+
+.email-form{
+    grid-area: r;
+    /* background-color: seagreen; */
+    padding: 20px;
+}
+
+
+.email-form > h2{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+
+
+.email-form > form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'nom email'
+                        'sujet sujet'
+                        'message message'
+                        'envoyer envoyer';
+  
+
+
+}
+
+.email-form > form > * {
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* width: 70%; */
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+
+    border: none;
+    padding: 20px 25px;
+    font-size: 20px;
+}
+
+.nom{
+    grid-area : nom ;
+    margin-right: 10px; 
+    
+}
+.email{
+    grid-area : email ;
+    margin-left: 10px;
+}
+
+.sujet {
+    grid-area : sujet ;
+}
+.message{
+    grid-area: message;
+}
+.envoyer{
+    grid-area : envoyer;
+    width: 40%;
+}
+.contact-infos{
+
+    grid-area: m;
+    /* background-color: skyblue; */
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.contact-infos > h2{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-infos > p{
+    width: 90%;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}

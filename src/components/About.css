@@ -51,3 +51,13 @@ background: #fff;
 color: #242424;
 transition: 250ms;
 }
+
+.me > h1{
+    font-size:70px;
+    margin-top: 50px;
+}
+
+.me > p{
+    font-size: 30px;
+    margin-top: 50px;
+}

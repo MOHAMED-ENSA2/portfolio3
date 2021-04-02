@@ -1,4 +1,68 @@
+.projetcs{
+    background-color: #f7f7f7;
+   padding-bottom: 50px;
+}
+.project-container{
+    width: 1400px;
+    margin: 0 auto;
+
+}
+.project-text{
+    text-align: center;
+}
+.project-text > p {
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #888;
+
+}
+.project-text > h1{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+
+    
+}
+
 .project{
     display: flex;
-    width: 1400px;
+    justify-content: space-around;
+    /* background-color: rosybrown; */
+    
+    
+
+}
+
+.prjt-elm{
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 25px rgb(24 24 24 / 10%);
+    transition: 0.3s;
+    text-align: center;
+    margin-top : 25px ; 
+    padding: 25px;
+}
+.prjt-elm:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.prjt-elm > p{
+    font-size: 20px;
+    color: #888;
+    font-family: 'Poppins', sans-serif;
+}
+
+.prjt-elm > h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }

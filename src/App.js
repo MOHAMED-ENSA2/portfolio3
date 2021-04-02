@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 
 import './App.css';
 import About from './components/About';
+import Contact from './components/Contact';
 import HeroSection from './components/HeroSection';
 import NavBar from './components/NavBar';
 import Projetcs from './components/Projects';
+import Recrute from './components/Recrute';
 
 
 class App extends Component {
@@ -19,6 +21,8 @@ class App extends Component {
       <HeroSection/>
       <About/>
       <Projetcs/>
+      <Recrute/>
+      <Contact/>
       </>
      );
   }

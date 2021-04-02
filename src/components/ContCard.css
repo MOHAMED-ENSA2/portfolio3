@@ -1,0 +1,27 @@
+.contcard{
+    margin-top: 45px;
+    margin-left: 70px;
+    width: 50%;
+    display:  grid;
+    grid-template-areas: 'i h h h'
+                         'i p p p' ;
+
+    grid-column-gap : 0px;
+    font-size: 30px;
+  
+}
+
+.i{
+    grid-area: i;
+   
+    
+}
+
+.h{
+    grid-area : h
+}
+
+.p{
+    grid-area:  p;
+    
+}

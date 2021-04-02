@@ -1,0 +1,42 @@
+.recrute{
+    
+    background-color: #000;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
+
+.recrute > h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.recrute > h3 {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+
+
+
+
+
+.hire-me{
+
+    padding: 12px 22px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.hire-me:hover{
+
+transition: all 0.3s ease-out;
+background: #3c6997;
+color: #242424;
+transition: 250ms;
+border: none;
+}
